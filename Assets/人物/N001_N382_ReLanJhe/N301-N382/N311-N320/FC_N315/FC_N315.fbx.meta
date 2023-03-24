@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: 8f0d76b9a86e8cc4ca60a5c843e275c2
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cloth
+    second: {fileID: 2100000, guid: 5ec3d81fce0a8254caf12df1e3fa243b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tool
+    second: {fileID: 2100000, guid: 0f1a5e712ed3baf48b80804b82d91b3c, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: FC_N315_B_Booth_iron(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Plane
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -0.031462252, y: -0.006203827, z: 0.054924726}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.001
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -0.06766981, y: 0.0111550195, z: -0.62244254}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.002
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.06721644, y: 0.0111550195, z: -0.62244254}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.003
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -0.25564307, y: 0.0111550195, z: -0.62244254}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.004
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.23126644, y: 0.0111550195, z: -0.2929753}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.016
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -0.3648458, y: 0.0111550195, z: -0.13907956}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.017
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.059030004, y: 0.0111550195, z: -0.1681922}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.005
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -0.5557255, y: 0.010788765, z: -0.36292872}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.006
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -0.72701955, y: 0.010788765, z: -0.292854}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.007
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -0.9868562, y: 0.010788765, z: -0.3048697}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.008
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.4917336, y: 0.008205028, z: -0.40387768}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.009
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.47563532, y: 0.008205028, z: -0.6480358}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.010
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.6473509, y: 0.008205028, z: -0.36094874}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.011
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.7153215, y: 0.008205028, z: -0.6614512}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.012
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.876305, y: 0.008205028, z: -0.6703945}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.013
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.76190794, y: 0.008205028, z: -0.16784963}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.014
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.84187245, y: 0.008205028, z: -0.3788358}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.015
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.5225086, y: 0.008205028, z: -0.06304889}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.018
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.7862272, y: 0.008065777, z: 0.1943758}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.019
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.65826756, y: 0.0027780675, z: 0.26759583}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.020
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.54094577, y: 0.0027780675, z: 0.29088897}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.021
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.24302539, y: 0.0027780675, z: 0.26374412}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.022
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.04989374, y: 0.0027780675, z: 0.23849456}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.023
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 1.030352, y: 0.008065777, z: -0.01859845}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.024
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: 0.49058604, y: 0.0027780675, z: 0.15193693}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.025
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -0.025249094, y: 0.0041453848, z: 0.38307685}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.026
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -0.14496861, y: 0.0041453848, z: 0.3994413}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.027
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -0.35863099, y: 0.0041453848, z: 0.3736025}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.028
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -0.6214942, y: 0.0041453848, z: 0.32317352}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.029
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -0.62356126, y: 0.0041453848, z: 0.3996562}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.030
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -0.63182956, y: 0.0041453848, z: 0.48337373}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.031
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -0.9565234, y: 0.0041453848, z: 0.40004736}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Plane.032
+      parentName: FC_N315_B_Booth_iron(Clone)
+      position: {x: -1.0628865, y: 0.0041453848, z: 0.40004736}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

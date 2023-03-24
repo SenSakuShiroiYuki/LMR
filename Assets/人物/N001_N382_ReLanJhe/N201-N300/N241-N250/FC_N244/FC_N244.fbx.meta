@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: eacd1e338ace57540b58655e4567cb0e
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable:
+  - first:
+      74: -623603649343465320
+    second: FC_N244_ani
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boat
+    second: {fileID: 2100000, guid: 6109b5d07e3592b40ac187c744f1b278, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BoxAsset.001
+    second: {fileID: 2100000, guid: 422cf841a21acac428109fc28718ae12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Burlap.001
+    second: {fileID: 2100000, guid: 8a887e93033518e4e87f40636a5a5867, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FC_N244_ani
+      takeName: Scene
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.9
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: FC_N244(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bone
+      parentName: FC_N244(Clone)
+      position: {x: -0, y: 0, z: -0.004246192}
+      rotation: {x: 0.7193398, y: 0, z: 0, w: 0.6946584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Boat
+      parentName: Bone
+      position: {x: -0, y: 0.004246192, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goods_case_only.050
+      parentName: Boat
+      position: {x: 0.001872286, y: 0.004583679, z: 0.0009737638}
+      rotation: {x: 0.019602181, y: 0, z: -0, w: 0.99980783}
+      scale: {x: 1.0000199, y: 0.9999944, z: 1.0000033}
+    - name: Goods_bag.001
+      parentName: Boat
+      position: {x: -0.0018244091, y: 0.00038058072, z: 0.0050083124}
+      rotation: {x: -0.015720868, y: -0.007578973, z: -0.43419915, w: 0.9006479}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goods_case_only.001
+      parentName: Boat
+      position: {x: 0.001872286, y: 0.0072236573, z: 0.0011196114}
+      rotation: {x: 0.04127407, y: 0, z: -0, w: 0.9991479}
+      scale: {x: 1.0000199, y: 0.9999944, z: 1.0000033}
+    - name: Goods_case_only.003
+      parentName: Boat
+      position: {x: -0.0021758364, y: 0.004583679, z: 0.0009737638}
+      rotation: {x: 0.019602181, y: 0, z: -0, w: 0.99980783}
+      scale: {x: 1.0000199, y: 0.9999944, z: 1.0000033}
+    - name: Goods_case_only.004
+      parentName: Boat
+      position: {x: -0.0021758364, y: 0.0072236573, z: 0.0011196114}
+      rotation: {x: 0.04127407, y: 0, z: -0, w: 0.9991479}
+      scale: {x: 1.0000199, y: 0.9999944, z: 1.0000033}
+    - name: Goods_case_only.005
+      parentName: Boat
+      position: {x: -0.0021758364, y: 0.009862766, z: 0.0013630178}
+      rotation: {x: 0.07423541, y: 0, z: -0, w: 0.9972408}
+      scale: {x: 1.0000199, y: 0.99999446, z: 1.0000033}
+    - name: Goods_bag.002
+      parentName: Boat
+      position: {x: 0.0018244091, y: -0.00044506358, z: 0.0050371443}
+      rotation: {x: -0.012127823, y: -0.012549996, z: -0.71898884, w: 0.69480246}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goods_bag.003
+      parentName: Boat
+      position: {x: 0.003165402, y: -0.004309538, z: 0.005172095}
+      rotation: {x: -0.01042998, y: -0.013992925, z: -0.8016542, w: 0.5975332}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goods_bag.004
+      parentName: Boat
+      position: {x: 0.0018573351, y: -0.009753921, z: 0.0057381634}
+      rotation: {x: 0.0016549431, y: 0.017373763, z: 0.99534225, w: -0.09481159}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Goods_bag.005
+      parentName: Boat
+      position: {x: -0.0023064497, y: -0.0097135585, z: 0.00631318}
+      rotation: {x: -0.06056205, y: -0.078564785, z: -0.7880956, w: 0.60750735}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Goods_case_only.002
+      parentName: Boat
+      position: {x: -0.0022110566, y: -0.0028082873, z: 0.0012151604}
+      rotation: {x: -0.017452406, y: 0, z: -0, w: 0.9998477}
+      scale: {x: 1.0000199, y: 0.9999944, z: 1.0000033}
+    - name: Goods_case_only.006
+      parentName: Boat
+      position: {x: -0.0022110566, y: -0.005348491, z: 0.0013038662}
+      rotation: {x: -0.017452406, y: 0, z: -0, w: 0.9998477}
+      scale: {x: 1.0000199, y: 0.9999944, z: 1.0000033}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

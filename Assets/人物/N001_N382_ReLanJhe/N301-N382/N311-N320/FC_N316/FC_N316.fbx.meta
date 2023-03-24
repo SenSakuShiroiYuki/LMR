@@ -1,0 +1,800 @@
+fileFormatVersion: 2
+guid: 40a0db9ec100f064aa706983ae603e6c
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable:
+  - first:
+      74: -623603649343465320
+    second: FC_N316_ani
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 90c0e7ece2e0a944da6b03f537563b94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: cloth
+    second: {fileID: 2100000, guid: 0c75cfb87b4188b4a859b91513d322c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin
+    second: {fileID: 2100000, guid: 0919c743d252c6c4baee8f953681aa67, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FC_N316_ani
+      takeName: Scene
+      internalID: 0
+      firstFrame: 1
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.9
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: FC_N316(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature
+      parentName: FC_N316(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: mixamorig:Hips
+      parentName: Armature
+      position: {x: 5.8080426e-14, y: -0.00012363987, z: 0.008588838}
+      rotation: {x: 0.7071069, y: -9.76972e-16, z: -1.0808811e-15, w: 0.70710665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Spine
+      parentName: mixamorig:Hips
+      position: {x: -6.244697e-13, y: 0.00090153574, z: 0.000009007628}
+      rotation: {x: 0.0049954657, y: 1.2343058e-15, z: -5.62342e-16, w: 0.99998754}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Spine1
+      parentName: mixamorig:Spine
+      position: {x: -2.1684043e-21, y: 0.0010518447, z: 0}
+      rotation: {x: -4.656613e-10, y: -3.469553e-18, z: -4.135903e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Spine2
+      parentName: mixamorig:Spine1
+      position: {x: -2.1684043e-21, y: 0.001202107, z: 0}
+      rotation: {x: -0, y: 1.0061396e-16, z: 8.253494e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Neck
+      parentName: mixamorig:Spine2
+      position: {x: -2.1684043e-21, y: 0.0013523706, z: -1.8626451e-11}
+      rotation: {x: -0.0049954653, y: -0.0000000030558633, z: 1.5269562e-11, w: 0.99998754}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: mixamorig:Head
+      parentName: mixamorig:Neck
+      position: {x: 2.9391643e-12, y: 0.0007560599, z: 0.000092321156}
+      rotation: {x: -0, y: -0, z: -4.4391574e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: mixamorig:HeadTop_End
+      parentName: mixamorig:Head
+      position: {x: -9.401452e-12, y: 0.00239365, z: 0.00029228436}
+      rotation: {x: -0, y: -0, z: 4.440892e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:LeftShoulder
+      parentName: mixamorig:Spine2
+      position: {x: -0.0005140979, y: 0.0011871392, z: 0.0000024702958}
+      rotation: {x: 0.5743438, y: -0.41277224, z: 0.57337284, w: 0.41351175}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: mixamorig:LeftArm
+      parentName: mixamorig:LeftShoulder
+      position: {x: -1.2805685e-11, y: 0.0010790622, z: -3.1897798e-10}
+      rotation: {x: -0.18455039, y: -0.0018318444, z: 0.009754777, w: 0.982773}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: mixamorig:LeftForeArm
+      parentName: mixamorig:LeftArm
+      position: {x: -3.7252902e-11, y: 0.0018708789, z: -9.313225e-11}
+      rotation: {x: -0.013290627, y: 0.00006502179, z: 0.004890158, w: -0.99989974}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1.0000001}
+    - name: mixamorig:LeftHand
+      parentName: mixamorig:LeftForeArm
+      position: {x: -4.324829e-10, y: 0.0026484942, z: 1.9092113e-10}
+      rotation: {x: -0.020689493, y: -0.030334303, z: 0.012719428, w: -0.9992447}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000006}
+    - name: mixamorig:LeftHandThumb1
+      parentName: mixamorig:LeftHand
+      position: {x: 0.00018840873, y: 0.00026508365, z: 0.00010179352}
+      rotation: {x: 0.10780632, y: 0.003969091, z: -0.20545977, w: 0.9727016}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000005}
+    - name: mixamorig:LeftHandThumb2
+      parentName: mixamorig:LeftHandThumb1
+      position: {x: 0.00008148208, y: 0.0002608828, z: -6.1467287e-10}
+      rotation: {x: -0.013067466, y: -0.007142291, z: -0.16173168, w: 0.98672235}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000005}
+    - name: mixamorig:LeftHandThumb3
+      parentName: mixamorig:LeftHandThumb2
+      position: {x: -0.00001941116, y: 0.00023116275, z: 4.0978193e-10}
+      rotation: {x: -0.032447785, y: 0.0004468531, z: -0.0031909028, w: 0.99946827}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: mixamorig:LeftHandThumb4
+      parentName: mixamorig:LeftHandThumb3
+      position: {x: -0.000030137748, y: 0.00021088429, z: 2.2351741e-10}
+      rotation: {x: 0.00040214128, y: -0.0028144366, z: -0.00030046323, w: 0.99999595}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000004}
+    - name: mixamorig:LeftHandIndex1
+      parentName: mixamorig:LeftHand
+      position: {x: 0.0000025335885, y: 0.0008174382, z: 0.0000052456558}
+      rotation: {x: -0.0039234157, y: 0.00007085874, z: -0.017956374, w: 0.99983114}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000006}
+    - name: mixamorig:LeftHandIndex2
+      parentName: mixamorig:LeftHandIndex1
+      position: {x: 0.0000026452726, y: 0.00025013022, z: -0.0000000011920929}
+      rotation: {x: 0.038723946, y: 0.000000025051113, z: -0.000000073482596, w: 0.99924994}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999976}
+    - name: mixamorig:LeftHandIndex3
+      parentName: mixamorig:LeftHandIndex2
+      position: {x: 0.000002271291, y: 0.00023042857, z: -0.00000000115484}
+      rotation: {x: 0.014048953, y: 0.0144852195, z: 0.43648338, w: 0.89948595}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: mixamorig:LeftHandIndex4
+      parentName: mixamorig:LeftHandIndex3
+      position: {x: 0.0002824481, y: 0.00020044949, z: -0.0000032171606}
+      rotation: {x: -0.00000026822087, y: -0.0026954303, z: 0.0006655888, w: 0.9999961}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: Ctrl_Thumb1_Left
+      parentName: mixamorig:LeftHand
+      position: {x: 0.00018840873, y: 0.00026508365, z: 0.00010179352}
+      rotation: {x: 0.16004537, y: -0.016362457, z: -0.14812213, w: 0.97579587}
+      scale: {x: 1.0000004, y: 0.9999999, z: 1.0000004}
+    - name: Ctrl_Thumb2_Left
+      parentName: Ctrl_Thumb1_Left
+      position: {x: 0.00008148208, y: 0.0002608828, z: -6.1467287e-10}
+      rotation: {x: -0.07014837, y: 0.00000003539026, z: 0.00000019877918, w: 0.9975366}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000006}
+    - name: Ctrl_Thumb3_Left
+      parentName: Ctrl_Thumb2_Left
+      position: {x: -0.00001941116, y: 0.00023116275, z: 4.0978193e-10}
+      rotation: {x: -0.051481232, y: -0.000000035126792, z: -0.00000017707349, w: 0.998674}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: Ctrl_Index1_Left
+      parentName: mixamorig:LeftHand
+      position: {x: 0.0000025335885, y: 0.0008174382, z: 0.0000052456558}
+      rotation: {x: -0.018670296, y: 0.007561012, z: -0.014304719, w: 0.99969476}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000006}
+    - name: Plane.001
+      parentName: Ctrl_Index1_Left
+      position: {x: -0.0008067551, y: -0.00005631769, z: 0.00011090219}
+      rotation: {x: 0.3676682, y: 0.57433295, z: 0.4491399, w: 0.5772652}
+      scale: {x: 0.8516993, y: 0.85169935, z: 0.85169894}
+    - name: Ctrl_Index2_Left
+      parentName: Ctrl_Index1_Left
+      position: {x: 0.0000026452726, y: 0.00025013022, z: -0.0000000011920929}
+      rotation: {x: 0.049502414, y: 0.00000028125945, z: 0.00000002171146, w: 0.99877405}
+      scale: {x: 0.9999996, y: 1, z: 0.9999997}
+    - name: Ctrl_Index3_Left
+      parentName: Ctrl_Index2_Left
+      position: {x: 0.000002271291, y: 0.00023042857, z: -0.00000000115484}
+      rotation: {x: -0.044455566, y: -0.00000030504933, z: -0.000000103052805, w: 0.9990114}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1}
+    - name: mixamorig:RightShoulder
+      parentName: mixamorig:Spine2
+      position: {x: 0.0005140979, y: 0.0011871392, z: 0.0000024702958}
+      rotation: {x: 0.57525456, y: 0.41211495, z: -0.5724494, w: 0.41418013}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: mixamorig:RightArm
+      parentName: mixamorig:RightShoulder
+      position: {x: 1.2805685e-11, y: 0.0010790622, z: -3.1897798e-10}
+      rotation: {x: -0.18443294, y: 0.0029663146, z: -0.015805721, w: 0.9827136}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: mixamorig:RightForeArm
+      parentName: mixamorig:RightArm
+      position: {x: -5.5879353e-11, y: 0.0018711959, z: 2.0023434e-10}
+      rotation: {x: 0.01314537, y: 0.00014205508, z: 0.010804224, w: 0.9998552}
+      scale: {x: 1.0000011, y: 1.0000007, z: 1.0000006}
+    - name: mixamorig:RightHand
+      parentName: mixamorig:RightForeArm
+      position: {x: 5.587935e-10, y: 0.002648445, z: 5.2154064e-10}
+      rotation: {x: 0.02350129, y: -0.039795596, z: 0.013416827, w: 0.99884135}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: mixamorig:RightHandThumb1
+      parentName: mixamorig:RightHand
+      position: {x: -0.00018711737, y: 0.00026661507, z: 0.00010305881}
+      rotation: {x: 0.09955011, y: -0.012414505, z: 0.18641415, w: 0.9773359}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: mixamorig:RightHandThumb2
+      parentName: mixamorig:RightHandThumb1
+      position: {x: -0.00008148085, y: 0.00026088298, z: -8.5681673e-10}
+      rotation: {x: -0.012152513, y: 0.006535321, z: 0.16129488, w: 0.98680985}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: mixamorig:RightHandThumb3
+      parentName: mixamorig:RightHandThumb2
+      position: {x: 0.000019411109, y: 0.0002311626, z: 2.2351741e-10}
+      rotation: {x: -0.015505741, y: -0.007818653, z: 0.09334082, w: 0.99548274}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: mixamorig:RightHandThumb4
+      parentName: mixamorig:RightHandThumb3
+      position: {x: 0.00006206989, y: 0.00017598725, z: 2.6077032e-10}
+      rotation: {x: 0.0016872395, y: 0.0047799116, z: 0.0006203738, w: 0.999987}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999997}
+    - name: mixamorig:RightHandIndex1
+      parentName: mixamorig:RightHand
+      position: {x: 9.313226e-10, y: 0.00081749435, z: 0.00000065958125}
+      rotation: {x: -0.021447662, y: -0.00025805458, z: 0.012034168, w: 0.99969757}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000006}
+    - name: mixamorig:RightHandIndex2
+      parentName: mixamorig:RightHandIndex1
+      position: {x: -0.0000026449934, y: 0.00025013008, z: -0.0000000015459954}
+      rotation: {x: 0.04115122, y: -0.00008564571, z: 0.000059911617, w: 0.99915296}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: mixamorig:RightHandIndex3
+      parentName: mixamorig:RightHandIndex2
+      position: {x: -0.0000022721476, y: 0.00023043032, z: -4.4703483e-10}
+      rotation: {x: -0.017793152, y: 0.017537767, z: -0.3889458, w: 0.92092186}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: mixamorig:RightHandIndex4
+      parentName: mixamorig:RightHandIndex3
+      position: {x: -0.00026570022, y: 0.00023142561, z: 0.0000049046425}
+      rotation: {x: 0.00005152819, y: 0.0045340676, z: -0.011538947, w: 0.9999232}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: Ctrl_Thumb1_Right
+      parentName: mixamorig:RightHand
+      position: {x: -0.00018711737, y: 0.00026661507, z: 0.00010305881}
+      rotation: {x: 0.15835515, y: 0.023441462, z: 0.14454663, w: 0.97646326}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Ctrl_Thumb2_Right
+      parentName: Ctrl_Thumb1_Right
+      position: {x: -0.00008148085, y: 0.00026088298, z: -8.5681673e-10}
+      rotation: {x: -0.07014824, y: -0.0000000745058, z: -0.00000021350567, w: 0.99753666}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: Ctrl_Thumb3_Right
+      parentName: Ctrl_Thumb2_Right
+      position: {x: 0.000019411109, y: 0.0002311626, z: 2.2351741e-10}
+      rotation: {x: -0.051481333, y: -0.000000022104901, z: 0.000000050030074, w: 0.99867404}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: Ctrl_Index1_Right
+      parentName: mixamorig:RightHand
+      position: {x: 9.313226e-10, y: 0.00081749435, z: 0.00000065958125}
+      rotation: {x: -0.021447662, y: -0.00025805458, z: 0.012034168, w: 0.99969757}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000006}
+    - name: Ctrl_Index2_Right
+      parentName: Ctrl_Index1_Right
+      position: {x: -0.0000026449934, y: 0.00025013008, z: -0.0000000015459954}
+      rotation: {x: 0.0495026, y: -0.00000011577501, z: -0.00000015945848, w: 0.99877405}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: Ctrl_Index3_Right
+      parentName: Ctrl_Index2_Right
+      position: {x: -0.0000022721476, y: 0.00023043032, z: -4.4703483e-10}
+      rotation: {x: -0.044455748, y: 0.0000001458951, z: 0.00000016595732, w: 0.9990114}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: mixamorig:LeftUpLeg
+      parentName: mixamorig:Hips
+      position: {x: -0.0011690732, y: -0.00050085306, z: -0.000033562217}
+      rotation: {x: 0.000000024181519, y: -0.0036022665, z: 0.9999935, w: -0.000000018350802}
+      scale: {x: 1.0000005, y: 0.9999987, z: 1.0000002}
+    - name: mixamorig:LeftLeg
+      parentName: mixamorig:LeftUpLeg
+      position: {x: 5.7607395e-11, y: 0.00408913, z: 2.6557244e-12}
+      rotation: {x: -0.0013647341, y: -0.0002661381, z: -0.0063934466, w: 0.9999786}
+      scale: {x: 1.0000006, y: 1.0000001, z: 0.9999999}
+    - name: mixamorig:LeftFoot
+      parentName: mixamorig:LeftLeg
+      position: {x: -4.550955e-12, y: 0.0035536562, z: 8.0035533e-13}
+      rotation: {x: 0.62198734, y: 0.074964784, z: 0.06958324, w: 0.7763184}
+      scale: {x: 1, y: 1.0000005, z: 1.0000019}
+    - name: mixamorig:LeftToeBase
+      parentName: mixamorig:LeftFoot
+      position: {x: -6.519258e-11, y: 0.00074402086, z: -1.8626451e-11}
+      rotation: {x: -0.020201743, y: 0.01859753, z: 0.0072036907, w: 0.999597}
+      scale: {x: 1.0000005, y: 1.0000004, z: 0.99999994}
+    - name: mixamorig:LeftToe_End
+      parentName: mixamorig:LeftToeBase
+      position: {x: -4.6566126e-11, y: 0.00068517664, z: 6.519258e-11}
+      rotation: {x: 0.13232893, y: -0.0523559, z: 0.013044393, w: 0.9897362}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.000001}
+    - name: mixamorig:RightUpLeg
+      parentName: mixamorig:Hips
+      position: {x: 0.0011690732, y: -0.00050085306, z: -0.000033562068}
+      rotation: {x: -0.000000012009655, y: -0.0030247276, z: 0.99999547, w: 0.00000001828412}
+      scale: {x: 1.0000001, y: 0.99999815, z: 1.0000001}
+    - name: mixamorig:RightLeg
+      parentName: mixamorig:RightUpLeg
+      position: {x: -4.762153e-11, y: 0.0040891, z: 2.6147973e-12}
+      rotation: {x: -0.0039055329, y: -0.22751811, z: 0.0074780285, w: 0.9737373}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999997}
+    - name: mixamorig:RightFoot
+      parentName: mixamorig:RightLeg
+      position: {x: 4.2998324e-11, y: 0.003553996, z: 3.2196112e-12}
+      rotation: {x: 0.5947043, y: 0.10624646, z: -0.20845516, w: 0.7691456}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000019}
+    - name: mixamorig:RightToeBase
+      parentName: mixamorig:RightFoot
+      position: {x: 2.0954757e-10, y: 0.00075691805, z: 8.0093737e-10}
+      rotation: {x: -0.022937626, y: -0.03475669, z: -0.006640617, w: 0.9991105}
+      scale: {x: 1.0000011, y: 1.0000012, z: 1.0000002}
+    - name: mixamorig:RightToe_End
+      parentName: mixamorig:RightToeBase
+      position: {x: 1.8626451e-11, y: 0.0006815788, z: -1.2107193e-10}
+      rotation: {x: 0.1326861, y: 0.052842326, z: -0.01631604, w: 0.98961407}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: Ctrl_Master
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.707098, y: -0.0035355194, z: -0.0035355198, w: 0.7070979}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Ctrl_Hips
+      parentName: Ctrl_Master
+      position: {x: 0.000001236378, y: 0.008588838, z: 0.00012363368}
+      rotation: {x: 0.000000089406974, y: 0.00499998, z: -7.0481126e-10, w: 0.99998754}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Ctrl_Hips_Free
+      parentName: Ctrl_Hips
+      position: {x: -1.1348744e-20, y: 0.0011488688, z: 4.405933e-12}
+      rotation: {x: 1, y: 6.323414e-12, z: 0.00000004377216, w: -3.238295e-14}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Hips_Free_Helper
+      parentName: Ctrl_Hips_Free
+      position: {x: -3.8597597e-19, y: 0.0011488688, z: -4.5591265e-12}
+      rotation: {x: -1, y: -6.689846e-11, z: -0.00000007497147, w: 2.7314796e-13}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: UpLeg_IK_Left
+      parentName: Ctrl_Hips_Free
+      position: {x: -0.0011690732, y: 0.0016497219, z: 0.00003356204}
+      rotation: {x: -0.0029730075, y: 0.9999942, z: 0.0016612294, w: -0.0000056785407}
+      scale: {x: 1.0000006, y: 0.9999985, z: 1.0000004}
+    - name: Leg_IK_Left
+      parentName: UpLeg_IK_Left
+      position: {x: 4.033609e-12, y: 0.0040891017, z: -4.401954e-12}
+      rotation: {x: -0.008436471, y: -0.0000011222727, z: -0.000000010244547, w: 0.9999644}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.9999999}
+    - name: Ctrl_UpLeg_FK_Left
+      parentName: Ctrl_Hips_Free
+      position: {x: -0.0011690732, y: 0.0016497219, z: 0.00003356204}
+      rotation: {x: -0.0029730082, y: 0.9999942, z: 0.0016612294, w: -0.0000056785407}
+      scale: {x: 1, y: 0.9999995, z: 0.9999999}
+    - name: Ctrl_Leg_FK_Left
+      parentName: Ctrl_UpLeg_FK_Left
+      position: {x: -4.286811e-11, y: 0.004089101, z: 5.320544e-13}
+      rotation: {x: -0.008436471, y: -0.00000112228, z: -0.000000008847564, w: 0.9999644}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.9999999}
+    - name: Ctrl_Foot_FK_Left
+      parentName: Ctrl_Leg_FK_Left
+      position: {x: -5.2382345e-11, y: 0.0035539984, z: -7.548806e-13}
+      rotation: {x: 0.7142067, y: -0.0024255065, z: 0.006538642, w: 0.69990015}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Foot_FK_Left
+      parentName: Ctrl_Foot_FK_Left
+      position: {x: 1.5428086e-11, y: 7.344068e-11, z: -1.7661811e-11}
+      rotation: {x: -0.111506596, y: 0.09278962, z: -0.0104577085, w: 0.989367}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1.0000004}
+    - name: Ctrl_Toe_FK_Left
+      parentName: Foot_FK_Left
+      position: {x: -2.2118911e-10, y: 0.00075691816, z: 7.636845e-10}
+      rotation: {x: -0.022937527, y: 0.034756433, z: 0.006640613, w: 0.9991105}
+      scale: {x: 0.9999999, y: 1, z: 0.99999976}
+    - name: UpLeg_IK_Right
+      parentName: Ctrl_Hips_Free
+      position: {x: 0.0011690732, y: 0.0016497219, z: 0.000033562246}
+      rotation: {x: 0.0029730075, y: 0.9999942, z: 0.0016612349, w: 0.0000057977477}
+      scale: {x: 1.0000004, y: 0.9999984, z: 1.0000001}
+    - name: Leg_IK_Right
+      parentName: UpLeg_IK_Right
+      position: {x: 3.6197496e-11, y: 0.004089101, z: 7.2691362e-12}
+      rotation: {x: -0.008436472, y: 0.0000011539504, z: 0.000000009080394, w: 0.9999644}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.99999994}
+    - name: Ctrl_UpLeg_FK_Right
+      parentName: Ctrl_Hips_Free
+      position: {x: 0.0011690732, y: 0.0016497219, z: 0.000033562246}
+      rotation: {x: 0.002973008, y: 0.9999942, z: 0.0016612349, w: 0.0000057977477}
+      scale: {x: 1, y: 0.9999995, z: 0.9999999}
+    - name: Ctrl_Leg_FK_Right
+      parentName: Ctrl_UpLeg_FK_Right
+      position: {x: 3.8417117e-11, y: 0.004089101, z: -8.596998e-12}
+      rotation: {x: -0.008436472, y: 0.0000011544197, z: 0.00000000768341, w: 0.9999644}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Ctrl_Foot_FK_Right
+      parentName: Ctrl_Leg_FK_Right
+      position: {x: 5.267339e-11, y: 0.0035539984, z: -1.6552803e-12}
+      rotation: {x: 0.71420676, y: 0.0024255072, z: -0.0065386426, w: 0.6999001}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Foot_FK_Right
+      parentName: Ctrl_Foot_FK_Right
+      position: {x: -1.535863e-11, y: 7.3774584e-11, z: -1.5364371e-11}
+      rotation: {x: -0.111506686, y: -0.09278966, z: 0.010457716, w: 0.989367}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1.0000005}
+    - name: Ctrl_Toe_FK_Right
+      parentName: Foot_FK_Right
+      position: {x: 2.2118911e-10, y: 0.00075691816, z: 7.636845e-10}
+      rotation: {x: -0.022937624, y: -0.034756407, z: -0.0066405805, w: 0.9991106}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.99999964}
+    - name: Ctrl_Spine
+      parentName: Ctrl_Hips
+      position: {x: 6.25188e-15, y: 0.00090153574, z: 0.000009007628}
+      rotation: {x: 0.0049954983, y: 4.6566134e-10, z: 2.5412816e-10, w: 0.99998754}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Ctrl_Spine1
+      parentName: Ctrl_Spine
+      position: {x: -2.1684043e-21, y: 0.0010518447, z: 0}
+      rotation: {x: -4.656613e-10, y: -2.7755576e-17, z: 1.2359905e-17, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Ctrl_Spine2
+      parentName: Ctrl_Spine1
+      position: {x: -2.1684043e-21, y: 0.001202107, z: 0}
+      rotation: {x: -0, y: -0, z: -1.2924697e-26, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Ctrl_Neck
+      parentName: Ctrl_Spine2
+      position: {x: -2.1684043e-21, y: 0.0013523706, z: -1.8626451e-11}
+      rotation: {x: -0.004995498, y: -0.00000001583277, z: -2.7299554e-10, w: 0.99998754}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Ctrl_Head
+      parentName: Ctrl_Neck
+      position: {x: 2.9391643e-12, y: 0.0007560599, z: 0.000092321156}
+      rotation: {x: -0, y: -0, z: -3.1086245e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ctrl_Shoulder_Left
+      parentName: Ctrl_Spine2
+      position: {x: -0.0005140979, y: 0.0011871392, z: 0.0000024702958}
+      rotation: {x: 0.5752552, y: -0.41211393, z: 0.57245004, w: 0.41417933}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Arm_IK_Left
+      parentName: Ctrl_Shoulder_Left
+      position: {x: -2.4447217e-11, y: 0.0010790623, z: -0.0000000016600824}
+      rotation: {x: -0.17685835, y: 0.0081308335, z: 0.017553866, w: 0.9840462}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000005}
+    - name: ForeArm_IK_Left
+      parentName: Arm_IK_Left
+      position: {x: 5.5879353e-11, y: 0.0018711955, z: -0.0000000020489097}
+      rotation: {x: 0.000009834766, y: -0.0000041648746, z: -0.017014291, w: 0.99985534}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000006}
+    - name: Ctrl_Arm_FK_Left
+      parentName: Ctrl_Spine2
+      position: {x: -0.0015374151, y: 0.0008448354, z: 0.000007529184}
+      rotation: {x: 0.48093814, y: -0.51351184, z: 0.50237954, w: 0.5026121}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000002}
+    - name: Ctrl_ForeArm_FK_Left
+      parentName: Ctrl_Arm_FK_Left
+      position: {x: -2.3283064e-12, y: 0.001871195, z: 4.732132e-10}
+      rotation: {x: 0.0000018924472, y: -0.0000040531154, z: -0.017014338, w: 0.9998553}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: Ctrl_Hand_FK_Left
+      parentName: Ctrl_ForeArm_FK_Left
+      position: {x: -7.785274e-12, y: 0.002648446, z: 0.0000000018986774}
+      rotation: {x: 0.029097976, y: 0.029297013, z: -0.01031881, w: 0.99909383}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: Ctrl_Shoulder_Right
+      parentName: Ctrl_Spine2
+      position: {x: 0.0005140979, y: 0.0011871392, z: 0.0000024702958}
+      rotation: {x: 0.5752552, y: 0.41211396, z: -0.57245004, w: 0.41417933}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Arm_IK_Right
+      parentName: Ctrl_Shoulder_Right
+      position: {x: 2.4447217e-11, y: 0.0010790623, z: -0.0000000016600824}
+      rotation: {x: -0.17685828, y: -0.008130803, z: -0.017553864, w: 0.9840462}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: ForeArm_IK_Right
+      parentName: Arm_IK_Right
+      position: {x: -2.6077032e-10, y: 0.0018711954, z: -0.0000000015553087}
+      rotation: {x: 0.00000964105, y: 0.0000039953734, z: 0.017014293, w: 0.9998553}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000006}
+    - name: Ctrl_Arm_FK_Right
+      parentName: Ctrl_Spine2
+      position: {x: 0.0015374151, y: 0.0008448354, z: 0.000007529184}
+      rotation: {x: 0.48093814, y: 0.51351184, z: -0.50237954, w: 0.50261205}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1.0000002}
+    - name: Ctrl_ForeArm_FK_Right
+      parentName: Ctrl_Arm_FK_Right
+      position: {x: 2.3283064e-12, y: 0.001871195, z: 4.732132e-10}
+      rotation: {x: 0.0000018179414, y: 0.0000040531154, z: 0.017014308, w: 0.9998553}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000001}
+    - name: Ctrl_Hand_FK_Right
+      parentName: Ctrl_ForeArm_FK_Right
+      position: {x: 7.785274e-12, y: 0.002648446, z: 0.0000000018986774}
+      rotation: {x: 0.029097931, y: -0.029296983, z: 0.010318867, w: 0.99909383}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: Ctrl_Hand_IK_Left
+      parentName: Ctrl_Spine1
+      position: {x: 0.000049952865, y: 0.00020163268, z: 0.0018053441}
+      rotation: {x: 0.49478504, y: -0.47040462, z: 0.5170796, w: 0.5162712}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000006}
+    - name: Ctrl_Hand_IK_Right
+      parentName: Ctrl_Spine1
+      position: {x: 0.0015046465, y: 0.00090582145, z: 0.0020829327}
+      rotation: {x: 0.49478504, y: 0.47040468, z: -0.51707953, w: 0.5162712}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: Ctrl_ArmPole_IK_Left
+      parentName: Armature
+      position: {x: 0.00004449248, y: -0.002487792, z: 0.009173462}
+      rotation: {x: 0.7071068, y: 7.7397307e-16, z: -3.0606847e-17, w: 0.7071067}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Ctrl_ArmPole_IK_Right
+      parentName: Armature
+      position: {x: 0.0030360078, y: 0.00171798, z: 0.0106793605}
+      rotation: {x: 0.7071068, y: 7.7397307e-16, z: -3.0606847e-17, w: 0.7071067}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: Ctrl_Foot_IK_Left
+      parentName: Armature
+      position: {x: -0.0012145145, y: -0.0000047192702, z: 0.00044577112}
+      rotation: {x: 0.00000065984204, y: -0.00000008940697, z: 0.9999801, w: -0.0063092867}
+      scale: {x: 0.99999976, y: 0.99999994, z: 1}
+    - name: Foot_IK_Left
+      parentName: Ctrl_Foot_IK_Left
+      position: {x: 6.6361847e-12, y: -4.0483428e-10, z: -0.0000000011194314}
+      rotation: {x: -0.111506626, y: 0.0927897, z: -0.0104577085, w: 0.989367}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Foot_Snap_Left
+      parentName: Foot_IK_Left
+      position: {x: 3.00588e-11, y: -6.490154e-11, z: 1.877197e-11}
+      rotation: {x: 0.111506626, y: -0.09278972, z: 0.0104577085, w: 0.989367}
+      scale: {x: 0.9999997, y: 0.99999994, z: 1.0000002}
+    - name: ToeTrack_Left
+      parentName: Foot_IK_Left
+      position: {x: -1.9324943e-10, y: 0.00075691805, z: 8.754432e-10}
+      rotation: {x: -0.022937441, y: 0.034756567, z: 0.0066406312, w: 0.9991105}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: Toe01_IK_Left
+      parentName: ToeTrack_Left
+      position: {x: -1.3271347e-10, y: 8.8475643e-11, z: -3.7252902e-11}
+      rotation: {x: 0.00000006146728, y: 0.00000023469326, z: 0.00000006746267, w: 1}
+      scale: {x: 1.0000006, y: 1.0000007, z: 1.0000001}
+    - name: Toe02_Left
+      parentName: Toe01_IK_Left
+      position: {x: -1.0710209e-10, y: 0.00034078947, z: -1.8626451e-11}
+      rotation: {x: -0.00000009126963, y: -0.00000082328904, z: -0.00000013801031, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: FootHeelOut_Left
+      parentName: Ctrl_Foot_IK_Left
+      position: {x: 0.00022311544, y: -0.000009397867, z: -0.00020963975}
+      rotation: {x: -0.000000064189976, y: 0.09109328, z: 0.0000000050359477, w: 0.9958424}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: FootHeelIn_Left
+      parentName: FootHeelOut_Left
+      position: {x: -0.00045376213, y: 0.000018795652, z: 1.2969167e-10}
+      rotation: {x: 6.291714e-10, y: 0.000000044703484, z: -0.000000003683288, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 1.0000001}
+    - name: FootHeelMid_Left
+      parentName: FootHeelIn_Left
+      position: {x: 0.00022688093, y: -0.00000939779, z: -5.5341613e-11}
+      rotation: {x: -0, y: -0, z: -2.8126153e-17, w: 1}
+      scale: {x: 1.0000006, y: 1, z: 1.0000001}
+    - name: ToeEnd_Left
+      parentName: FootHeelMid_Left
+      position: {x: 0.000017090117, y: 0.0013953092, z: -0.00017919386}
+      rotation: {x: -0.13205534, y: 0.038017906, z: -0.017728683, w: 0.99035436}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000001}
+    - name: ToeEnd_01_Left
+      parentName: ToeEnd_Left
+      position: {x: -6.286427e-11, y: -6.7520885e-11, z: 1.8626451e-11}
+      rotation: {x: 0.000000014901161, y: -0.0000005811453, z: -0.000000056345016, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: Ctrl_Foot_01_Left
+      parentName: ToeEnd_Left
+      position: {x: 2.4680047e-10, y: -0.0006815789, z: -7.264316e-10}
+      rotation: {x: 0.022937609, y: -0.034756966, z: -0.0066406317, w: 0.99911046}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Foot_IK_target_Left
+      parentName: Ctrl_Foot_01_Left
+      position: {x: -3.5106495e-12, y: -0.0007569184, z: -8.374627e-11}
+      rotation: {x: 0.093370706, y: -0.00000012913368, z: -0.9956314, w: 0.000000043015458}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000001}
+    - name: Foot_01_Pole_Left
+      parentName: Ctrl_Foot_01_Left
+      position: {x: 5.704351e-10, y: 0.0000000019965227, z: 0.0015138449}
+      rotation: {x: 0.7028847, y: 0.07715197, z: 0.077151515, w: 0.7028858}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1}
+    - name: Ctrl_Toe_IK_Left
+      parentName: ToeEnd_Left
+      position: {x: -1.2107193e-10, y: -0.0006815791, z: 5.5879353e-11}
+      rotation: {x: 0.000000059604638, y: -0.00000014156102, z: -0.0000000037252899, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: Ctrl_FootRoll_Cursor_Left
+      parentName: Ctrl_Foot_IK_Left
+      position: {x: -9.733227e-12, y: -0.0008855161, z: -1.844298e-12}
+      rotation: {x: -1.4672707e-12, y: -2.3283087e-10, z: 0.0000000027940268, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Ctrl_LegPole_IK_Left
+      parentName: Armature
+      position: {x: -0.0011954542, y: -0.0070210933, z: 0.003921352}
+      rotation: {x: 0.7071068, y: -6.4630814e-12, z: -6.3979434e-12, w: 0.7071067}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+    - name: Ctrl_Foot_IK_Right
+      parentName: Armature
+      position: {x: 0.0012145145, y: -0.0000047192702, z: 0.00044577112}
+      rotation: {x: -0.0000006596092, y: -0.00000008940697, z: 0.9999801, w: 0.0063092858}
+      scale: {x: 0.99999976, y: 0.99999994, z: 1}
+    - name: Foot_IK_Right
+      parentName: Ctrl_Foot_IK_Right
+      position: {x: -6.927223e-12, y: -3.815512e-10, z: -0.0000000011194314}
+      rotation: {x: -0.111506626, y: -0.09278971, z: 0.010457707, w: 0.989367}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Foot_Snap_Right
+      parentName: Foot_IK_Right
+      position: {x: -2.9376678e-11, y: -6.0827e-11, z: 2.386514e-11}
+      rotation: {x: 0.111506626, y: 0.092789724, z: -0.010457707, w: 0.989367}
+      scale: {x: 0.9999996, y: 0.99999994, z: 1}
+    - name: ToeTrack_Right
+      parentName: Foot_IK_Right
+      position: {x: 1.9324943e-10, y: 0.00075691805, z: 8.754432e-10}
+      rotation: {x: -0.022937441, y: -0.03475656, z: -0.0066406294, w: 0.9991105}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: Toe01_IK_Right
+      parentName: ToeTrack_Right
+      position: {x: 1.3271347e-10, y: 8.8475643e-11, z: -3.7252902e-11}
+      rotation: {x: 0.00000006146728, y: -0.00000023469326, z: -0.00000006775371, w: 1}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1.0000001}
+    - name: Toe02_Right
+      parentName: Toe01_IK_Right
+      position: {x: 1.0710209e-10, y: 0.00034078947, z: -1.8626451e-11}
+      rotation: {x: -0.00000009126963, y: 0.00000085309136, z: 0.00000012607774, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: FootHeelOut_Right
+      parentName: Ctrl_Foot_IK_Right
+      position: {x: -0.00022311544, y: -0.000009397867, z: -0.00020963975}
+      rotation: {x: -0.00000006424965, y: -0.09109328, z: -0.0000000059671366, w: 0.9958424}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: FootHeelIn_Right
+      parentName: FootHeelOut_Right
+      position: {x: 0.00045376213, y: 0.000018795652, z: 1.2969167e-10}
+      rotation: {x: 5.1323923e-10, y: -0.000000029802322, z: 0.0000000036938936, w: 1}
+      scale: {x: 1.0000004, y: 1, z: 1.0000001}
+    - name: FootHeelMid_Right
+      parentName: FootHeelIn_Right
+      position: {x: -0.00022688093, y: -0.00000939779, z: -5.5341613e-11}
+      rotation: {x: -0, y: -0, z: 1.5295721e-17, w: 1}
+      scale: {x: 1.0000006, y: 1, z: 1.0000001}
+    - name: ToeEnd_Right
+      parentName: FootHeelMid_Right
+      position: {x: -0.000017090117, y: 0.0013953092, z: -0.00017919386}
+      rotation: {x: -0.13205534, y: -0.03801792, z: 0.01772868, w: 0.99035436}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000001}
+    - name: ToeEnd_01_Right
+      parentName: ToeEnd_Right
+      position: {x: 6.286427e-11, y: -6.7520885e-11, z: 1.8626451e-11}
+      rotation: {x: 0.000000014901161, y: 0.0000005811453, z: 0.00000005401671, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.99999994}
+    - name: Ctrl_Foot_01_Right
+      parentName: ToeEnd_Right
+      position: {x: -2.4680047e-10, y: -0.0006815789, z: -7.264316e-10}
+      rotation: {x: 0.022937609, y: 0.034756966, z: 0.0066406312, w: 0.9991105}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Foot_IK_target_Right
+      parentName: Ctrl_Foot_01_Right
+      position: {x: 3.5106495e-12, y: -0.0007569184, z: -8.374627e-11}
+      rotation: {x: -0.09337072, y: -0.00000013099633, z: -0.9956314, w: -0.000000041618474}
+      scale: {x: 1.0000004, y: 1.0000007, z: 1.0000001}
+    - name: Foot_01_Pole_Right
+      parentName: Ctrl_Foot_01_Right
+      position: {x: -5.704351e-10, y: 0.0000000019965227, z: 0.0015138449}
+      rotation: {x: 0.7028847, y: -0.077152, z: -0.07715151, w: 0.7028858}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1}
+    - name: Ctrl_Toe_IK_Right
+      parentName: ToeEnd_Right
+      position: {x: 1.2107193e-10, y: -0.0006815791, z: 5.5879353e-11}
+      rotation: {x: 0.000000059604638, y: 0.00000015646218, z: 0.000000020489095, w: 1}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: Ctrl_FootRoll_Cursor_Right
+      parentName: Ctrl_Foot_IK_Right
+      position: {x: 9.733227e-12, y: -0.0008855161, z: -1.844298e-12}
+      rotation: {x: 1.7763568e-15, y: 2.220446e-16, z: -0.0000000027940268, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: Ctrl_LegPole_IK_Right
+      parentName: Armature
+      position: {x: 0.0011938448, y: -0.0070275273, z: 0.0039213523}
+      rotation: {x: 0.7071068, y: 3.5937035e-16, z: 1.8282754e-16, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: NFBT_ANFBT_A
+      parentName: FC_N316(Clone)
+      position: {x: 0.0000000027939677, y: -1.091396e-10, z: 0.0000000015133992}
+      rotation: {x: 0.000000081460335, y: -0.000000003055902, z: 0.0000000037252903, w: 1}
+      scale: {x: 99.999985, y: 100.000015, z: 100}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
