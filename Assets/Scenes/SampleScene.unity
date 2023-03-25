@@ -6400,6 +6400,44 @@ Transform:
   m_Father: {fileID: 1877156756}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1487283860 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6159333874279272600, guid: 7b92101708255fa458aac622d8ca4050, type: 3}
+  m_PrefabInstance: {fileID: 1321923161}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1487283861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487283860}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b4b9885440d114dabba1ca36bb26fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: 1
+--- !u!114 &1487283862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487283860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b12934277533b4438bfd90e48264485, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPoint: {fileID: 61368697}
+  NextPoint:
+  - {fileID: 61368697}
+  StartPoint: {x: 0, y: 0, z: 0}
+  StartRotation: {x: 0, y: 0, z: 0}
+  firstTimer: 0
+  nextPointTimer:
+  - 3
 --- !u!1001 &1494468554
 PrefabInstance:
   m_ObjectHideFlags: 0
