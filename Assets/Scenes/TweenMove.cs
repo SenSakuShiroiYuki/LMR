@@ -15,7 +15,7 @@ public class TweenMove : MonoBehaviour
     private bool Rotate = false;
     private int posIndex = -1;
     //--------    
-    [SerializeField] private float[] nextPointTimer = { 24, 30, 3, 3, 3, 3, 3, 3, 3, 32, 32, 34 };
+    [SerializeField] private float[] nextPointTimer;
     // Update is called once per frame
     void Start()
     {
