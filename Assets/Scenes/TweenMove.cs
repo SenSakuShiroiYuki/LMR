@@ -10,7 +10,7 @@ public class TweenMove : MonoBehaviour
     public Transform[] NextPoint;
     public Vector3 StartPoint;
     public Vector3 StartRotation;
-    public float firstTimer;
+    public float delayTimer;
     private bool firstEnd = false;
     private bool Rotate = false;
     private int posIndex = -1;
@@ -19,7 +19,7 @@ public class TweenMove : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
-        StartCoroutine(FirstMove(firstTimer));
+        StartCoroutine(FirstMove(delayTimer));
     }
     private void Update()
     {
