@@ -75,4 +75,21 @@ public class TweenMove : MonoBehaviour
             LeanToPos(gameObject, NextPoint[posIndex].position);
         });
     }
+    private void OnDrawGizmosSelected()
+    {
+        if (NextPoint == null) return;
+
+        Gizmos.color = Color.green;
+        Gizmos.DrawLine(transform.position, startPoint.position);
+        Gizmos.DrawLine(startPoint.position, NextPoint[0].position);
+        for (int i = 0; i < NextPoint.Length; i++)
+        {
+            if (i < NextPoint.Length - 1)
+            {
+                Gizmos.color = Color.green;
+                Gizmos.DrawLine(NextPoint[i].position, NextPoint[i + 1].position);
+            }
+                
+        }
+    }
 }
