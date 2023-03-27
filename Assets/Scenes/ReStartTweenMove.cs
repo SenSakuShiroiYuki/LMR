@@ -20,8 +20,4 @@ public class ReStartTweenMove : MonoBehaviour
         GetComponent<TweenMove>().enabled = true;
     }
 
-    private void OnDisable()
-    {
-        
-    }
 }
