@@ -13,13 +13,14 @@ public class ObjectMove : MonoBehaviour
     [SerializeField] bool repeatMove;
     [SerializeField] UnityEvent onMoveStart;
     [SerializeField] UnityEvent onMoveEnd;
+    [SerializeField] int targetIndex;
 
     List<Transform> path = null;
     List<float> distance = null;
     float totalDistance = 0f;
 
-    int currentIndex = 0;
     int _lastIndex;
+    int currentIndex = 0;
     private void Start()
     {
         Init();
@@ -50,8 +51,10 @@ public class ObjectMove : MonoBehaviour
         }
 
         // 將物件歸零成 path 的第一個
-        transform.position = path[0].position;
-        transform.rotation = path[0].rotation;
+        transform.position = path[targetIndex].position;
+        transform.rotation = path[targetIndex].rotation;
+
+        currentIndex = targetIndex;
     }
 
     private void Update()
@@ -78,9 +81,7 @@ public class ObjectMove : MonoBehaviour
     }
 
     private void MoveObject()
-    {
-        // 呼叫 onMoveStart 事件
-        if (currentIndex == 0) onMoveStart?.Invoke();
+    {       
 
         // 暫存上一個 index
         _lastIndex = currentIndex;
