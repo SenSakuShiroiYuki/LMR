@@ -19,7 +19,7 @@ public class ObjectMove : MonoBehaviour
     float totalDistance = 0f;
 
     int currentIndex = 0;
-
+    int _lastIndex;
     private void Start()
     {
         Init();
@@ -54,6 +54,10 @@ public class ObjectMove : MonoBehaviour
         transform.rotation = path[0].rotation;
     }
 
+    private void Update()
+    {
+        RotatePeople(path[_lastIndex], path[currentIndex]);
+    }
     /// <summary>
     /// 移動物體並套用預設delay時間
     /// </summary>
@@ -79,7 +83,7 @@ public class ObjectMove : MonoBehaviour
         if (currentIndex == 0) onMoveStart?.Invoke();
 
         // 暫存上一個 index
-        var _lastIndex = currentIndex;
+        _lastIndex = currentIndex;
 
         // 索引值 +1，並且超過 path.Count 時歸零
         currentIndex++;
@@ -101,13 +105,20 @@ public class ObjectMove : MonoBehaviour
             }
 
             // 計算旋轉時間
-            var _rotateTime = Mathf.Abs(path[currentIndex].eulerAngles.y - path[_lastIndex].eulerAngles.y) / 90f * rotateSpeed;
-            LeanTween.rotate(gameObject, path[currentIndex].eulerAngles, _rotateTime);
+            //var _rotateTime = Mathf.Abs(path[currentIndex].eulerAngles.y - path[_lastIndex].eulerAngles.y) / 90f * rotateSpeed;
+            //LeanTween.rotate(gameObject, path[currentIndex].eulerAngles, _rotateTime);
+            
             Move(0);
         });
     }
+    void RotatePeople(Transform previousPoint, Transform nextPoint)
+    {
+        Vector3 dir = nextPoint.position - previousPoint.position;
+        if (dir == Vector3.zero) return; 
+        Quaternion newQuaternion = Quaternion.LookRotation(dir);
+        transform.rotation = Quaternion.RotateTowards(transform.rotation, newQuaternion, rotateSpeed * Time.deltaTime);
+    }
 
-    
     private void OnDrawGizmosSelected()
     {
         if (path == null) return; 
