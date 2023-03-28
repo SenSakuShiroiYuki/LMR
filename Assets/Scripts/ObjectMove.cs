@@ -102,7 +102,8 @@ public class ObjectMove : MonoBehaviour
 
             // 計算旋轉時間
             var _rotateTime = Mathf.Abs(path[currentIndex].eulerAngles.y - path[_lastIndex].eulerAngles.y) / 90f * rotateSpeed;
-            LeanTween.rotate(gameObject, path[currentIndex].eulerAngles, _rotateTime).setOnComplete(() => Move(0));
+            LeanTween.rotate(gameObject, path[currentIndex].eulerAngles, _rotateTime);
+            Move(0);
         });
     }
 
