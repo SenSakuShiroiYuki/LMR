@@ -79,7 +79,7 @@ public class TweenMove : MonoBehaviour
     {
         if (NextPoint == null) return;
 
-        Gizmos.color = Color.green;
+        Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, startPoint.position);
         Gizmos.DrawLine(startPoint.position, NextPoint[0].position);
         for (int i = 0; i < NextPoint.Length; i++)
