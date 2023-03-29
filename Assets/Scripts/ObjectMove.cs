@@ -112,6 +112,7 @@ public class ObjectMove : MonoBehaviour
             Move(0);
         });
     }
+    // 角色面朝下一個節點
     void RotatePeople(Transform previousPoint, Transform nextPoint)
     {
         Vector3 dir = nextPoint.position - previousPoint.position;
